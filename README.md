@@ -2,6 +2,7 @@
 ####student name:Lyu Wei
 ####student number:2014301020069
 
+* [x] [Exercise_02]()
 * [ ] [Exercise_03:All levels]()
 * [ ] [Exercise_04:Chapter 1 problem 1.5:The decay of two kinds of particles]()
 * [ ] [Exercise_05:Chapter 1 problem 1.6:Population growth]()
