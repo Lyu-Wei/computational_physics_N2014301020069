@@ -3,7 +3,7 @@
 ####student number:2014301020069
 
 * [x] [Exercise_02](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_02.md)
-* [x] [Exercise_03]()
+* [x] [Exercise_03](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_03.md)
 * [ ] [Exercise_04]()
 * [ ] [Exercise_05]()
 * [ ] [Exercise_06]()
