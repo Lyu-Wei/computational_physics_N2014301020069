@@ -13,7 +13,7 @@
 
 ### 正文
 * L1
-   首先设计好了所有英文字母的图形，然后通过算法实现了输入字母后计算机可以输出相应字母的图形。再进一步升级算法成功使字母图形自动平移。<br>
+   首先设计好了所有英文字母的图形，然后通过算法实现输入字母后计算机可以输出相应字母的图形。再进一步升级算法使字母图形自动平移。<br>
    运行程序，输入我的名字“LYUWEI”(吕蔚）并按下回车键，就可以看到字母图形出现且自动平移。 效果如下图：<br>
    
    ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercide_03a.gif)<br>
@@ -21,12 +21,19 @@
    [程序链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_03a.py)
    
 * L2
+   先写一个40*40的点阵（80*80太大了，运行时在屏幕上显示的效果不好），然后写出四个不同指向的箭头（即四帧图片），让他们连起来运行，并做一个循环。运行时就可以看到一个箭头旋转起来了。效果如下图：<br>
+   
+   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_03b1.gif)<br>
+   
+   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_03b2.gif)<br>
+   
+   [程序链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_03b.py)
 
 ### 结论
-   通过此次作业进一步了解熟悉了Python语言的使用。
+   通过此次作业进一步了解并熟悉了Python语言的使用。
    
 ### 致谢
-   感谢陈叶波同学在此次作业中给予我的帮助。
+   感谢陈叶波同学在写代码时给予了我帮助并提供了gif截图软件。
    
    
   
