@@ -1,5 +1,7 @@
 # Exercise_04
 
+### 题目 
+#### problem 1.5
 Consider again a decay problem with two types of nuclei A and B, but now suppose that nuclei of type A decay into type B, while nuclei of 
 type B decay into type A. Strictly speaking, this is not a "decay" process, since it is possible for the type B nuclei to turn back 
 into type A. A better analogy would be a resonance in which a system can tunnel or move back and forth between two states A and B which 
