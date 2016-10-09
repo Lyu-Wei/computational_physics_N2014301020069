@@ -7,9 +7,7 @@
 
 ## 背景介绍
 * 原子核衰变<br>
-  对于某一放射性元素集合体，在dt时间内衰变的原子数dN与此时刻母核数N(t)和dt乘积成正比，即：![](http://latex.codecogs.com/gif.latex?%5Cmathrm%7Bd%7D%20N%3D-%5Cfrac%7B1%7D%7B%5Ctau%20%7DN%5Cmathrm%7Bd%7Dt)。
-积分运算后可得衰变规律方程：![](http://latex.codecogs.com/gif.latex?N%28t%29%3DN%280%29e%5E%7B-t/%5Ctau%20%7D)
-，其中τ为一个时间常数，t=0时刻的放射性核数为N(0)，t时刻放射性核数为N(t)。
+  对于某一放射性元素集合体，在dt时间内衰变的原子数dN与此时刻母核数N(t)和dt乘积成正比，即：![](http://latex.codecogs.com/gif.latex?%5Cmathrm%7Bd%7D%20N%3D-%5Cfrac%7B1%7D%7B%5Ctau%20%7DN%5Cmathrm%7Bd%7Dt)。积分运算后可得衰变规律方程：![](http://latex.codecogs.com/gif.latex?N%28t%29%3DN%280%29e%5E%7B-t/%5Ctau%20%7D)，其中τ为一个时间常数，t=0时刻的放射性核数为N(0)，t时刻放射性核数为N(t)。
 
 * 欧拉方法<br>
   在数学和计算机科学中，欧拉方法，命名自它的发明者莱昂哈德·欧拉，是一种一阶数值方法，用以对给定初值的常微分方程（即初值问题）求解。它是一种解决数值常微分方程的最基本的一类显型方法。<br>
@@ -33,7 +31,7 @@ where for simplicity we have assumed that the two types of decay are characteriz
 
 ## 解题过程
 * 设定初始条件和参数<br>
-  首先，A和B的初始值需要设定，在本题中，A的初始值为100，B的初始值为0。<br>
+  首先，![](http://latex.codecogs.com/gif.latex?N_%7BA%7D)和![](http://latex.codecogs.com/gif.latex?N_%7BB%7D)的初始值需要设定，在本题中，![](http://latex.codecogs.com/gif.latex?N_%7BA0%7D%3D100%2CN_%7BB0%7D%3D0) 。<br>
   A和B的衰减常数τ是一个重要参数，在本题中A和B的衰减常数相同，均为1。<br>
   另一个需要设定的参数是时间间隔dt，题目中并没有给出此参数的值，需要自己设定。dt越小，数值解将越接近解析解。所以我先将其设定为0.05。（时间量的单位均为秒）<br>
   最后，程序不可能永远运行下去，需要设置一个总的运行时间，我将它设为5。
@@ -47,7 +45,7 @@ where for simplicity we have assumed that the two types of decay are characteriz
   
 * 结果显示<br>
   使用pylab将上一步的得到的四列数据绘制在同一个坐标图中。坐标图如下：<br>
-  ![]()
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e41.png)
   
 *  数据保存<br>
    编写程序将时间和对应的四列数据保存到一个txt文件中。
@@ -56,12 +54,12 @@ where for simplicity we have assumed that the two types of decay are characteriz
   运算可得problem 1.5 的方程组解析解为:<br>
   ![](http://latex.codecogs.com/gif.latex?%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D%20N_%7BA%7D%3D%5Cfrac%7BN_%7BA0%7D&plus;N_%7BB0%7D%7D%7B2%7D&plus;%5Cfrac%7BN_%7BA0%7D-N_%7BB0%7D%7D%7B2%7De%5E%7B-%5Cfrac%7B2%7D%7B%5Ctau%20%7Dt%7D%20%5C%5C%20N_%7BB%7D%3D%5Cfrac%7BN_%7BA0%7D&plus;N_%7BB0%7D%7D%7B2%7D-%5Cfrac%7BN_%7BA0%7D-N_%7BB0%7D%7D%7B2%7De%5E%7B-%5Cfrac%7B2%7D%7B%5Ctau%20%7Dt%7D%20%5Cend%7Bmatrix%7D%5Cright.)，<br>
   把数值带入解析解中，将得到的数据与数值解的数据绘制到同一坐标图中进行比较。图像如下（其中虚线为解析解，实线为数值解）：<br>
-  ![]()
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e42.png)
 
 * 改变初值条件和参数，观察其结果<br>
-  ![]()<br>
-  ![]()<br>
-  ![]()<br>
-  ![]()
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e43.png)<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e44.png)<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e45.png)<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e46.png)
   
 ## 结论
