@@ -15,6 +15,6 @@ where for simplicity we have assumed that the two types of decay are characteriz
 
 ### 背景介绍
 * 原子核衰变
-对于某一放射性元素集合体，在dt时间内衰变的原子数dN与此时刻母核数N(t)和dt乘积成正比，即：<br>![](http://latex.codecogs.com/gif.latex?%5Cmathrm%7Bd%7D%20N%3D-%5Cfrac%7B1%7D%7B%5Ctau%20%7DN%5Cmathrm%7Bd%7Dt)。<br>
-积分运算后可得衰变规律方程：<br>![](http://latex.codecogs.com/gif.latex?N%28t%29%3DN%280%29e%5E%7B-t/%5Ctau%20%7D)
+对于某一放射性元素集合体，在dt时间内衰变的原子数dN与此时刻母核数N(t)和dt乘积成正比，即：![](http://latex.codecogs.com/gif.latex?%5Cmathrm%7Bd%7D%20N%3D-%5Cfrac%7B1%7D%7B%5Ctau%20%7DN%5Cmathrm%7Bd%7Dt)。
+积分运算后可得衰变规律方程：![](http://latex.codecogs.com/gif.latex?N%28t%29%3DN%280%29e%5E%7B-t/%5Ctau%20%7D)
 ，其中τ为一个时间常数，t=0时刻的放射性核数为N(0)，t时刻放射性核数为N(t)。
