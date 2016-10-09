@@ -56,7 +56,7 @@ where for simplicity we have assumed that the two types of decay are characteriz
   把数值带入解析解中，将得到的数据与数值解的数据绘制到同一坐标图中进行比较。图像如下（其中虚线为解析解，实线为数值解）：<br>
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e42.png)
 
-* 改变初值条件和参数，观察其结果<br>
+* 将题目中的初值条件和参数改变，观察生成的图像结果<br>
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e43.png)<br>
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e44.png)<br>
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e45.png)<br>
