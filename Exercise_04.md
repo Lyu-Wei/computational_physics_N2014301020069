@@ -48,7 +48,7 @@ where for simplicity we have assumed that the two types of decay are characteriz
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e41.png)
   
 *  数据保存<br>
-   编写程序将时间和对应的四列数据保存到一个txt文件中。
+   编写程序将时间和对应的四列数据保存到一个txt文件中。[txt数据文件链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_04_data.txt)
    
 * 数值解与解析解的比较<br>
   运算可得problem 1.5 的方程组解析解为:<br>
@@ -61,5 +61,12 @@ where for simplicity we have assumed that the two types of decay are characteriz
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e44.png)<br>
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e45.png)<br>
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/e46.png)
-  
+
+## 程序代码
+* [程序链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_04.py)
+
 ## 结论
+  数值解显示当系统达到稳定时，![](http://latex.codecogs.com/gif.latex?N_%7BA%7D)和![](http://latex.codecogs.com/gif.latex?N_%7BB%7D)保持不变。此时![](http://latex.codecogs.com/gif.latex?%5Cfrac%7BdN_%7BA%7D%7D%7Bdt%7D%2C%5Cfrac%7BdN_%7BB%7D%7D%7Bdt%7D)都趋于0。
+  
+## 致谢
+  感谢蔡浩老师的课件，感谢谷歌，维基百科和百度百科。
