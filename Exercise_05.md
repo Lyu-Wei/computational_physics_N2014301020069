@@ -40,6 +40,49 @@
 * 炮弹轨迹模型
   设定初始条件及主要参数：![](http://latex.codecogs.com/gif.latex?v_%7B0%7D%3D0.7km/s%2Cg%3D0.0098km/s%5E%7B2%7D%2C%5CDelta%20t%3D0.5s)
   根据牛顿第二定律和欧拉方法，可以编写出以下程序代码：
+'''
+import pylab as pl
+import math
+class trajectories(object):
+    def __init__(self, v_0 = 0.7, time_step = 0.5, g = 0.0098):
+        self.vx = []
+        self.vy = []
+        self.v_0 = v_0
+        self.x = []
+        self.y = []
+        self.t = [0]
+        self.g = g
+        self.angle = [30, 35, 40, 45, 50, 55]
+        self.dt = time_step
+    def calculate(self):
+        for i in self.angle:
+            self.x.append([0])
+            self.y.append([0])
+            self.vx.append([self.v_0 * math.cos((float(i) / 180) * math.pi)])
+            self.vy.append([self.v_0 * math.sin((float(i) / 180) * math.pi)])
+            while (self.y[-1][-1] > 0) or (self.x[-1][-1] == 0):
+                self.vx[-1].append(self.vx[-1][-1])
+                self.vy[-1].append(self.vy[-1][-1] - self.g * self.dt)
+                self.x[-1].append(self.x[-1][-1] + self.vx[-1][-1] * self.dt)
+                self.y[-1].append(self.y[-1][-1] + self.vy[-1][-1] * self.dt)
+            if self.y[-1][-1] < 0:
+                r = - (self.y[-1][-2] / self.y[-1][-1])
+                self.x[-1][-1] = (self.x[-1][-2] + r * self.x[-1][-1]) / (r + 1)  
+    def show_results(self):
+        for i in range(len(self.angle)):
+            pl.plot(self.x[i], self.y[i])
+            pl.annotate(r'%d$^o$'%self.angle[i],xy=(20, 2 * i + 7))
+        pl.title('Trajectory of cannon shell (no drag)')
+        pl.annotate(r'$v_0$=%.2f$km/s$'%self.v_0,xy=(45,15))
+        pl.xlabel('x ($km$)')
+        pl.ylabel('y ($km$)')
+        pl.xlim(0, 60)
+        pl.ylim(0, 20)
+        pl.show()
+a = trajectories()
+a.calculate()
+a.show_results()
+'''
   
 ## 结论
 
