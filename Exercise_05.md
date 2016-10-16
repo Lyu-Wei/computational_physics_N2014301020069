@@ -30,7 +30,7 @@
   
 ## 正文
 * 炮弹轨迹模型<br>
-  设定初始条件及主要参数：![](http://latex.codecogs.com/gif.latex?v_%7B0%7D%3D0.7km/s%2Cg%3D0.0098km/s%5E%7B2%7D%2C%5CDelta%20t%3D0.5)<br>
+  设定初始条件及主要参数：![](http://latex.codecogs.com/gif.latex?v_%7B0%7D%3D0.7km/s%2Cg%3D0.0098km/s%5E%7B2%7D%2C%5CDelta%20t%3D0.5s)<br>
   根据背景介绍中所给的方程和欧拉方法，可以编写出以下程序计算若干个初始角度时的炮弹轨迹：<br>
 ```
 import pylab as pl
