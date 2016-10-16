@@ -40,7 +40,7 @@
 * 炮弹轨迹模型
   设定初始条件及主要参数：![](http://latex.codecogs.com/gif.latex?v_%7B0%7D%3D0.7km/s%2Cg%3D0.0098km/s%5E%7B2%7D%2C%5CDelta%20t%3D0.5s)
   根据牛顿第二定律和欧拉方法，可以编写出以下程序代码：
-'''
+```
 import pylab as pl
 import math
 class trajectories(object):
@@ -82,7 +82,7 @@ class trajectories(object):
 a = trajectories()
 a.calculate()
 a.show_results()
-'''
+```
   
 ## 结论
 
