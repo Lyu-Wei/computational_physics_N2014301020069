@@ -19,7 +19,7 @@
   
 * 落点<br>
   若地面以上最后一点为n，地面以下第一点为n+1，则落点坐标为<br>
-  ![](http://latex.codecogs.com/gif.latex?x%3D%5Cfrac%7Bx_%7Bn%7D&plus;rx_%7Bn&plus;1%7D%7D%7Br&plus;1%7D%2Cy_%7Bl%7D%3D0)<br>
+  ![](http://latex.codecogs.com/gif.latex?x_%7Bl%7D%3D%5Cfrac%7Bx_%7Bn%7D&plus;rx_%7Bn&plus;1%7D%7D%7Br&plus;1%7D%2Cy_%7Bl%7D%3D0)<br>
   其中<br>
   ![](http://latex.codecogs.com/gif.latex?r%3D-%5Cfrac%7By_%7Bn%7D%7D%7By_%7Bn&plus;1%7D%7D)
   
