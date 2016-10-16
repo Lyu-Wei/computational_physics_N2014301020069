@@ -76,7 +76,7 @@ a.calculate()
 a.show_results()
 ```
   计算结果如图所示：<br>
-  ![]()
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_05a.png)
   
 * 结果与精确解比较<br>
   方程精确解为：<br>
@@ -92,7 +92,7 @@ class exact_results_check(trajectories):
             self.ety.append([0])
             while (self.ety[-1][-1] > 0) or (self.etx[-1][-1] == 0):
                 self.etx[-1].append(self.v_0 * math.cos((float(i) / 180) * math.pi) * self.dt * len(self.etx[-1]))
-                self.ety[-1].append(self.v_0 * math.sin((float(i) / 180) * math.pi) * self.dt * len(self.etx[-1]) - 0.5 * self.g * (self.dt * len(self.ety[-1])) ** 2 )
+                self.ety[-1].append(self.v_0 * math.sin((float(i) / 180) * math.pi) * self.dt * len(self.ety[-1]) - 0.5 * self.g * (self.dt * len(self.ety[-1])) ** 2 )
             if self.ety[-1][-1] < 0:
                 r1 = - (self.ety[-1][-2] / self.ety[-1][-1])
                 self.etx[-1][-1] = (self.etx[-1][-2] + r1 * self.etx[-1][-1]) / (r1 + 1)
@@ -115,12 +115,12 @@ b.calculate()
 b.show_results()   
 ```
   在![](http://latex.codecogs.com/gif.latex?%5CDelta%20t%3D0.5)时，检验结果如下：<br>
-  ![]()<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_05b.png)<br>
   若![](http://latex.codecogs.com/gif.latex?%5CDelta%20t%3D0.05)，精确解和数值解的轨迹基本重合：<br>
-  ![]()
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_05c.png)
   
 ## 程序代码
-  [完整代码链接]()
+  [完整代码链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_05%2B.py)
   
 ## 结论
   计算所得结果与课本FIGURE 2.4左图基本一致，![](http://latex.codecogs.com/gif.latex?%5CDelta%20t)取值越小，数值解与精确解越接近。
