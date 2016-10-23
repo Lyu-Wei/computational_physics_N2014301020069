@@ -22,3 +22,6 @@
   ![](http://latex.codecogs.com/gif.latex?%5C%5C%20x_%7Bi&plus;1%7D%3Dx_i&plus;v_%7Bx%2Ci%7D%5CDelta%20t%20%5C%5C%20%5C%5C%20v_%7Bx%2Ci&plus;1%7D%3Dv_%7Bx%2Ci%7D-%5Cfrac%7B%5Crho%20%7D%7B%5Crho%20_0%7D%5Cfrac%7BB_2vv_%7Bx%2Ci%7D%7D%7Bm%7D%5CDelta%20t%20%5C%5C%20%5C%5C%20y_%7Bi&plus;1%7D%3Dy_i&plus;v_%7By%2Ci%7D%5CDelta%20t%20%5C%5C%20%5C%5C%20v_%7By%2Ci&plus;1%7D%3Dv_%7By%2Ci%7D-g%5CDelta%20t-%5Cfrac%7B%5Crho%20%7D%7B%5Crho%20_0%7D%5Cfrac%7BB_2vv_%7By%2Ci%7D%7D%7Bm%7D%5CDelta%20t)。<br>
 * 海拔对重力加速度的影响<br>
   ![](http://latex.codecogs.com/gif.latex?g%3Dg_0%28%5Cfrac%7BR%7D%7BR&plus;y%7D%29%5E2)<br>
+* 风的影响
+  考虑风的影响后阻力在x轴和y轴上的分力为：
+  ![](http://latex.codecogs.com/gif.latex?%5C%5C%20F_%7Bdrag%2Cx%7D%3D-B_%7B2%7D%7C%5Cvec%7Bv%7D-%5Cvec%7Bv_%7Bwind%7D%7D%7C%28v_%7Bx%7D-v_%7Bwind%7D%29%20%5C%5C%5C%5C%20F_%7Bdrag%2Cy%7D%3D-B_%7B2%7D%7C%5Cvec%7Bv%7D-%5Cvec%7Bv_%7Bwind%7D%7D%7Cv_%7By%7D)。
