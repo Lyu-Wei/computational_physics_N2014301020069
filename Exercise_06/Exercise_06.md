@@ -68,7 +68,7 @@
            
 ```
   在炮弹初速度为2公里每秒，风速为10公里每小时，打击距离100公里的目标结果如下图：<br>
-  ![]()<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_06/Exercise_06a.png)<br>
 * 引入误差<br>
   现在我们考虑炮弹初始发射的时候发射角度误差正负2度，速度有5%的误差，迎面风阻误差10%。将由均匀分布随机数产生的误差项加在初速度、风阻和上一步我们计算所得的最佳角度上，模拟n次打击实验，画出炮弹轨迹图和落点距离图，计算出炮弹落点与打击目标距离差平方均值。<br>
   该步程序如下：<br>
@@ -130,11 +130,11 @@
    
 ```
   模拟100次结果如下图：<br>
-  ![]()  ![]()<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_06/Exercise_06b.png)  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_06/Exercise_06c.png)<br>
   
   
 ## 程序代码
-   [完整代码链接]()
+   [完整代码链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_06/Exercise_06.py)
    
 ## 结论
    通过此次作业，我学会了如何在物理计算模拟中考虑误差的影响，并由误差分析系统的性能。
