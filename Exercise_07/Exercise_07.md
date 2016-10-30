@@ -33,9 +33,10 @@ Repeat the previous problem, but give the two pendulums slightly different dampi
 
 ## 正文
 * 初始条件微小变化对结果的影响（problem 3.13）<br>
-　　物理摆摆动过程中，当强迫力较小时，初始值的微小变化对结果影响很小；若强迫力较大，则混沌现象发生，初始值对结果影响巨大。下面我们同时摆动两个物理摆，它们除θ(0)不一样外（Δθ=0.001），其他参数都相同(q=1/2,l=g=9.8,![](http://latex.codecogs.com/gif.latex?%5COmega_D)=2/3,dt=0.04,ω(0)=0,全为SI单位），它们的Δθ-s 图如下：<br>
-　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07i.jpg)<br>
-　　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07i.jpg)<br>
+　　物理摆摆动过程中，当强迫力较小时，初始值的微小变化对结果影响很小；若强迫力较大，则混沌现象发生，初始值对结果影响巨大。下面我们同时摆动两个物理摆，它们除θ(0)不一样外（Δθ=0.001），其他参数都相同(q=1/2,l=g=9.8,![](http://latex.codecogs.com/gif.latex?%5COmega_D)=2/3,dt=0.04,ω(0)=0,全为SI单位），它们的Δθ-s 图如下（此步在计算θ时不用使其保持在区间[-π，π]中）：<br>
+　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07n.jpg)<br>
+　　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07n.jpg)<br>
+　　经过模拟发现，当θ₁（0）取0.2时无法画出Figure3.7的右图，取θ₁（0）=0.16999，刻画出与其相似的图。这个现象也说明了混沌现象的神奇。
 　　为更好地表现结果，该图的纵坐标使用lg为刻度。整个程序代码如下：<br>
 ```
 # -*- coding: utf-8 -*-
@@ -95,13 +96,14 @@ a.show_results1()
 ```
 
 * 阻尼系数的微小改变对结果的影响（problem 3.14）<br>
-　　如果我们让第二个摆的阻尼系数（q2）改变，其他参数不变（Δθ=0.001,q=1/2,l=g=9.8,![](http://latex.codecogs.com/gif.latex?%5COmega_D)=2/3,dt=0.04,ω(0)=0），结果如图：<br>
+　　如果我们让第二个摆的阻尼系数（q2）改变，其他参数不变（θ₁=0.2,Δθ=0.001,q=1/2,l=g=9.8,![](http://latex.codecogs.com/gif.latex?%5COmega_D)=2/3,dt=0.04,ω(0)=0），结果如图：<br>
 　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07c.png)<br>
 　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07e.png)<br>
 　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07d.png)<br>
 　　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07c.png)<br>
 　　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07e.png)<br>
 　　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07d.png)<br>
+    第一幅图的Lyapunov指数约为-2.5，后两幅图的Lyapunov指数接近于0。<br>
 　　程序代码如下：<br>
 ```
 # -*- coding: utf-8 -*-
