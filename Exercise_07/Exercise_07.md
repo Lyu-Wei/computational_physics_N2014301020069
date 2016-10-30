@@ -1,23 +1,23 @@
 # Exercise_07
 
 ## 摘要
-  本文介绍了使用物理摆系统制造混沌现象，并通过Δθ-t图，ω-θ图和庞加莱截面研究混沌现象的过程。
+  本文介绍了使用物理摆系统制造混沌现象，并通过Δθ-t图，ω-θ图和庞加莱截面研究混沌现象的过程。<br>
 
 ## 背景介绍
-* 物理摆方程
-  一个非线性的、有阻尼的、受迫的摆又被称为物理摆，它包含了许多有趣的现象，其运动的微分方程为：
-  ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7Dt%7D&plus;F_Dsin%28%5COmega%20_Dt%29)
-  我们可以将这个二阶微分方程写成两个一阶微分方程：
-  ![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%7D%5Comega%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7Dt%7D&plus;F_Dsin%28%5COmega%20_Dt%29%2C%20%5C%5C%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Ctheta%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Comega.)
-  我们在运用eular——cromer方法有：
-  ![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Comega_%7Bi&plus;1%7D%3D%5Comega_i-%5B%28g/l%29sin%5Ctheta_i&plus;q%5Comega_i-F_Dsin%28%5COmega_Dt_i%29%5D%5CDelta%20t%20%5C%5C%5C%5C%20%5Ctheta_%7Bi&plus;1%7D%3D%5Ctheta_i&plus;%5Comega_%7Bi&plus;1%7D%5CDelta%20t)
-  如果![](http://latex.codecogs.com/gif.latex?%5Ctheta_%7Bi&plus;1%7D)不在区间[-π,π]范围内，加上或者减掉2π使它保持在这个范围中。
-  ![](http://latex.codecogs.com/gif.latex?t_%7Bi&plus;1%7D%3Dt_%7Bi%7D&plus;%5CDelta%20t)
-* 混沌
-  混沌理论是关于非线性系统在一定参数条件下展现分岔、周期运动与非周期运动相互纠缠，以至于通向某种非周期有序运动的理论。在强迫力较大时，物理摆的运动轨迹将出现混沌现象。
-* 庞加莱截面
-  其基本思想是在多维相空间(x,,dx, ldt,xZ,d²x /dt²,...dR /dt)中适当选取一截面，在此截面上某一对共扼变量如xdx, ldt取固定值，称此截面为庞加莱截面。
-  观测运动轨迹与此截面的截点(庞加莱点)，设它们依次为P1,P2,P3…。原来相空间的连续轨迹在庞加莱截面上便表现为一些离散点之间的映射Pn。由它们可得到关于运动特性的信息。如不考虑初始阶段的暂态过渡过程，只考虑庞加莱截面的稳态图像，当庞加莱截面上只有一个不动点和少数离散点时，可判定运动是周期的;当庞加莱截面上是一封闭曲线时，可判定运动是准周期的;当庞加莱截面上是成片的密集点，且有层次结构时，可判定运动处于混沌状态。
+* 物理摆方程<br>
+  一个非线性的、有阻尼的、受迫的摆又被称为物理摆，它包含了许多有趣的现象，其运动的微分方程为：<br>
+  ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7Dt%7D&plus;F_Dsin%28%5COmega%20_Dt%29)。<br>
+  我们可以将这个二阶微分方程写成两个一阶微分方程：<br>
+  ![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%7D%5Comega%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7Dt%7D&plus;F_Dsin%28%5COmega%20_Dt%29%2C%20%5C%5C%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Ctheta%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Comega.)<br>
+  我们在运用eular——cromer方法有：<br>
+  ![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Comega_%7Bi&plus;1%7D%3D%5Comega_i-%5B%28g/l%29sin%5Ctheta_i&plus;q%5Comega_i-F_Dsin%28%5COmega_Dt_i%29%5D%5CDelta%20t%20%5C%5C%5C%5C%20%5Ctheta_%7Bi&plus;1%7D%3D%5Ctheta_i&plus;%5Comega_%7Bi&plus;1%7D%5CDelta%20t)<br>
+  如果![](http://latex.codecogs.com/gif.latex?%5Ctheta_%7Bi&plus;1%7D)不在区间[-π,π]范围内，加上或者减掉2π使它保持在这个范围中。<br>
+  ![](http://latex.codecogs.com/gif.latex?t_%7Bi&plus;1%7D%3Dt_%7Bi%7D&plus;%5CDelta%20t)<br>
+* 混沌<br>
+  混沌理论是关于非线性系统在一定参数条件下展现分岔、周期运动与非周期运动相互纠缠，以至于通向某种非周期有序运动的理论。在强迫力较大时，物理摆的运动轨迹将出现混沌现象。<br>
+* 庞加莱截面<br>
+  其基本思想是在多维相空间(x,,dx, ldt,xZ,d²x /dt²,...dR /dt)中适当选取一截面，在此截面上某一对共扼变量如xdx, ldt取固定值，称此截面为庞加莱截面。<br>
+  观测运动轨迹与此截面的截点(庞加莱点)，设它们依次为P1,P2,P3…。原来相空间的连续轨迹在庞加莱截面上便表现为一些离散点之间的映射Pn。由它们可得到关于运动特性的信息。如不考虑初始阶段的暂态过渡过程，只考虑庞加莱截面的稳态图像，当庞加莱截面上只有一个不动点和少数离散点时，可判定运动是周期的;当庞加莱截面上是一封闭曲线时，可判定运动是准周期的;当庞加莱截面上是成片的密集点，且有层次结构时，可判定运动处于混沌状态。<br>
   
 
 ## 题目
@@ -32,10 +32,11 @@ Repeat the previous problem, but give the two pendulums slightly different dampi
 
 
 ## 正文
-* 初始条件微小变化对结果的影响（problem 3.13）
-  物理摆摆动过程中，当强迫力较小时，初始值的微小变化对结果影响很小；若强迫力较大，则混沌现象发生，初始值对结果影响巨大。下面我们同时摆动两个物理摆，它们除θ(0)不一样外（Δθ=0.001），其他参数都相同(q=1/2,l=g=9.8,![](http://latex.codecogs.com/gif.latex?%5COmega_D)=2/3,dt=0.04,ω(0)=0,全为SI单位），它们的Δθ-s 图如下：
-  ![]()![]()
-  为更好地表现结果，该图的纵坐标使用lg为刻度。整个程序代码如下：
+* 初始条件微小变化对结果的影响（problem 3.13）<br>
+  物理摆摆动过程中，当强迫力较小时，初始值的微小变化对结果影响很小；若强迫力较大，则混沌现象发生，初始值对结果影响巨大。下面我们同时摆动两个物理摆，它们除θ(0)不一样外（Δθ=0.001），其他参数都相同(q=1/2,l=g=9.8,![](http://latex.codecogs.com/gif.latex?%5COmega_D)=2/3,dt=0.04,ω(0)=0,全为SI单位），它们的Δθ-s 图如下：<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07i.jpg)<br>
+  [图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07i.jpg)<br>
+  为更好地表现结果，该图的纵坐标使用lg为刻度。整个程序代码如下：<br>
 ```
 # -*- coding: utf-8 -*-
 import pylab as pl
@@ -93,10 +94,15 @@ a.calculate()
 a.show_results1()
 ```
 
-* 阻尼系数的微小改变对结果的影响（problem 3.14）
-  如果我们让第二个摆的阻尼系数（q2）改变，其他参数不变（Δθ=0.001,q=1/2,l=g=9.8,![](http://latex.codecogs.com/gif.latex?%5COmega_D)=2/3,dt=0.04,ω(0)=0），结果如图：
-  ![]()![]()![]()
-  程序代码如下：
+* 阻尼系数的微小改变对结果的影响（problem 3.14）<br>
+  如果我们让第二个摆的阻尼系数（q2）改变，其他参数不变（Δθ=0.001,q=1/2,l=g=9.8,![](http://latex.codecogs.com/gif.latex?%5COmega_D)=2/3,dt=0.04,ω(0)=0），结果如图：<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07c.png)<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07e.png)<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07d.png)<br>
+  [图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07c.png)<br>
+  [图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07e.png)<br>
+  [图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07d.png)<br>
+  程序代码如下：<br>
 ```
 # -*- coding: utf-8 -*-
 import pylab as pl
@@ -155,11 +161,12 @@ a.calculate()
 a.show_results1()
 ```
   
-* 空间相位图
-  当混沌现象发生时，通过θ-t图我们很难看出其中的规律，但这并不意味着混沌现象完全没有规律可循。当我们画出一个摆的ω-θ图时，似乎能看出一些规律。
-  ![]()![]()
-  当强迫力较小时，最终的轨道是独立于初始值的；强迫力较大时，空间相位轨迹很复杂却不是完全随机的。
-  该过程代码如下：
+* 空间相位图<br>
+  当混沌现象发生时，通过θ-t图我们很难看出其中的规律，但这并不意味着混沌现象完全没有规律可循。当我们画出一个摆的ω-θ图时，似乎能看出一些规律。<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07k.jpg)<br>
+  [图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07k.jpg)<br>
+  当强迫力较小时，最终的轨道是独立于初始值的；强迫力较大时，空间相位轨迹很复杂却不是完全随机的。<br>
+  该过程代码如下：<br>
 ```
 # -*- coding: utf-8 -*-
 import pylab as pl
@@ -217,12 +224,14 @@ a.calculate()
 a.show_results2()
 ```
 
-* 庞加莱截面（problem 3.12）
-  如果我们只画出某些时间点的相位点，则得到了庞加莱截面：
-  ![]()![]()
-  ![]()![]()
-  根据背景介绍中对庞加莱截面的描述和上图可判断，强迫力为0.5时，物理摆做周期运动；强迫力为1.2时，物理摆运动处于混沌状态。
-  该过程代码如下：
+* 庞加莱截面（problem 3.12）<br>
+  如果我们只画出某些时间点的相位点，则得到了庞加莱截面：<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07j.jpg)<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07h.jpg)<br>
+  [图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07j.jpg)<br>
+  [图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07h.jpg)<br>
+  根据背景介绍中对庞加莱截面的描述和上图可判断，强迫力为0.5时，物理摆做周期运动；强迫力为1.2时，物理摆运动处于混沌状态。<br>
+  该过程代码如下：<br>
 ```
 # -*- coding: utf-8 -*-
 import pylab as pl
