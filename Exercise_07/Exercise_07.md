@@ -65,19 +65,11 @@ class pendulum(object):
             temp1 = self.omega[-1] - ((g / l) * np.sin(self.theta[-1]) + q1 * self.omega[-1] - self.F_D * np.sin(self.omega_D * self.t[-1])) * self.dt
             self.omega.append(temp1)
             temp2 = self.theta[-1] + temp1 * self.dt
-            while(temp2 > np.pi):
-                temp2 -= 2 * np.pi
-            while(temp2 < -np.pi):
-                temp2 += 2 * np.pi
             self.theta.append(temp2)
             
             temp3 = self.omega1[-1] - ((g / l) * np.sin(self.theta1[-1]) + q2 * self.omega1[-1] - self.F_D * np.sin(self.omega_D * self.t[-1])) * self.dt
             self.omega1.append(temp3)
             temp4 = self.theta1[-1] + temp3 * self.dt 
-            while(temp4 > np.pi):
-                temp4 -= 2 * np.pi
-            while(temp4 < -np.pi):
-                temp4 += 2 * np.pi 
             self.theta1.append(temp4)
             
             self.t.append(self.t[-1] + self.dt)
@@ -163,8 +155,8 @@ a.calculate()
 a.show_results1()
 ```
   
-* 空间相位图<br>
-　　当混沌现象发生时，通过θ-t图我们很难看出其中的规律，但这并不意味着混沌现象完全没有规律可循。当我们画出一个摆的ω-θ图时，似乎能看出一些规律。<br>
+* 相空间<br>
+　　当混沌现象发生时，通过θ-t图我们很难看出其中的规律，但这并不意味着混沌现象完全没有规律可循。当我们画出一个摆的ω-θ图（相空间图）时，似乎能看出一些规律。<br>
 　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07k.jpg)<br>
 　　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07k.jpg)<br>
   　当强迫力较小时，最终的轨道是独立于初始值的封闭曲线；强迫力较大时，空间相位轨迹很复杂却不是完全混乱的。<br>
@@ -302,7 +294,7 @@ a.show_results2()
 ```  
 
 ## 结论
-　　通过Δθ-t图，我们发现，强迫力较小时，Lyapunov指数小于0，θ趋于0；强迫力较大时，Lyapunov指数大于0。通过空间相位图和庞加莱截面，我们知道了判断系统是否为混沌状态的直观方法。
+　　通过Δθ-t图，我们发现，强迫力较小时，Lyapunov指数小于0，θ趋于0；强迫力较大时，Lyapunov指数大于0。通过ω-θ图和庞加莱截面，我们知道了判断系统是否为混沌状态的直观方法。
   
 
 ## 致谢
