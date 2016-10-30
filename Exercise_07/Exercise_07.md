@@ -226,8 +226,10 @@ a.show_results2()
 
 * 庞加莱截面（problem 3.12）<br>
   　如果我们只画出某些时间点的相位点，则得到了庞加莱截面：<br>
+　　强迫力为1.2时，
 　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07j.jpg)<br>
-  　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07h.jpg)<br>
+  　强迫力为0.5时，
+　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07h.jpg)<br>
   　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07j.jpg)<br>
   　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07h.jpg)<br>
   　根据背景介绍中对庞加莱截面的描述和上图可判断，强迫力为0.5时，物理摆做周期运动；强迫力为1.2时，物理摆运动处于混沌状态。<br>
