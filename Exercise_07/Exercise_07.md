@@ -1,15 +1,15 @@
 # Exercise_07
 
 ## 摘要
-  本文介绍了使用物理摆系统制造混沌现象，并通过Δθ-t图，ω-θ图和庞加莱截面研究混沌现象的过程。<br>
+　　本文介绍了使用物理摆系统制造混沌现象，并通过Δθ-t图，ω-θ图和庞加莱截面研究混沌现象的过程。<br>
 
 ## 背景介绍
 * 物理摆方程<br>
-  一个非线性的、有阻尼的、受迫的摆又被称为物理摆，它包含了许多有趣的现象，其运动的微分方程为：<br>
+　　一个非线性的、有阻尼的、受迫的摆又被称为物理摆，它包含了许多有趣的现象，其运动的微分方程为：<br>
   ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7Dt%7D&plus;F_Dsin%28%5COmega%20_Dt%29)。<br>
-  我们可以将这个二阶微分方程写成两个一阶微分方程：<br>
+　　我们可以将这个二阶微分方程写成两个一阶微分方程：<br>
   ![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%7D%5Comega%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7Dt%7D&plus;F_Dsin%28%5COmega%20_Dt%29%2C%20%5C%5C%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Ctheta%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Comega.)<br>
-  我们在运用eular——cromer方法有：<br>
+　　我们在运用eular——cromer方法有：<br>
   ![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Comega_%7Bi&plus;1%7D%3D%5Comega_i-%5B%28g/l%29sin%5Ctheta_i&plus;q%5Comega_i-F_Dsin%28%5COmega_Dt_i%29%5D%5CDelta%20t%20%5C%5C%5C%5C%20%5Ctheta_%7Bi&plus;1%7D%3D%5Ctheta_i&plus;%5Comega_%7Bi&plus;1%7D%5CDelta%20t)<br>
   如果![](http://latex.codecogs.com/gif.latex?%5Ctheta_%7Bi&plus;1%7D)不在区间[-π,π]范围内，加上或者减掉2π使它保持在这个范围中。<br>
   ![](http://latex.codecogs.com/gif.latex?t_%7Bi&plus;1%7D%3Dt_%7Bi%7D&plus;%5CDelta%20t)<br>
