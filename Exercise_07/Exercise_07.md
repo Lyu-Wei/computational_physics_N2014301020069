@@ -3,6 +3,21 @@
 ## 摘要
 
 ## 背景介绍
+* 物理摆方程
+  一个非线性的、有阻尼的、受迫的摆又被称为物理摆，它包含了许多有趣的现象，其运动的微分方程为：
+  ![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7Dt%7D&plus;F_Dsin%28%5COmega%20_Dt%29)
+  我们可以将这个二阶微分方程写成两个一阶微分方程：
+  ![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%7D%5Comega%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7Dt%7D&plus;F_Dsin%28%5COmega%20_Dt%29%2C%20%5C%5C%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Ctheta%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Comega.)
+  我们在运用eular——cromer方法有：
+  ![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Comega_%7Bi&plus;1%7D%3D%5Comega_i-%5B%28g/l%29sin%5Ctheta_i&plus;q%5Comega_i-F_Dsin%28%5COmega_Dt_i%29%5D%5CDelta%20t%20%5C%5C%5C%5C%20%5Ctheta_%7Bi&plus;1%7D%3D%5Ctheta_i&plus;%5Comega_%7Bi&plus;1%7D%5CDelta%20t)
+  如果![](http://latex.codecogs.com/gif.latex?%5Ctheta_%7Bi&plus;1%7D)不在区间[-π,π]范围内，加上或者减掉2π使它保持在这个范围中。
+  ![](http://latex.codecogs.com/gif.latex?t_%7Bi&plus;1%7D%3Dt_%7Bi%7D&plus;%5CDelta%20t)
+* 混沌
+  混沌理论是关于非线性系统在一定参数条件下展现分岔、周期运动与非周期运动相互纠缠，以至于通向某种非周期有序运动的理论。在强迫力较大时，物理摆的运动轨迹将出现混沌现象。
+* 庞加莱截面
+  其基本思想是在多维相空间(x,,dx, ldt,xZ,d²x /dt²,...dR /dt)中适当选取一截面，在此截面上某一对共扼变量如xdx, ldt取固定值，称此截面为庞加莱截面。
+  观测运动轨迹与此截面的截点(庞加莱点)，设它们依次为P1,P2,P3…。原来相空间的连续轨迹在庞加莱截面上便表现为一些离散点之间的映射Pn。由它们可得到关于运动特性的信息。如不考虑初始阶段的暂态过渡过程，只考虑庞加莱截面的稳态图像，当Poincare截面上只有一个不动点和少数离散点时，可判定运动是周期的;当庞加莱截面上是一封闭曲线时，可判定运动是准周期的;当庞加莱截面上是成片的密集点，且有层次结构时，可判定运动处于混沌状态。
+  
 
 ## 题目
 * Problem 3.12.<br>
