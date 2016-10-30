@@ -9,7 +9,7 @@
 　　![](http://latex.codecogs.com/gif.latex?%5Cfrac%7B%5Cmathrm%7Bd%7D%5E2%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7D%20t%5E2%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7Dt%7D&plus;F_Dsin%28%5COmega%20_Dt%29)。<br>
 　　我们可以将这个二阶微分方程写成两个一阶微分方程：<br>
 　　![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%7D%5Comega%20%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D-%5Cfrac%7Bg%7D%7Bl%7Dsin%5Ctheta%20-q%5Cfrac%7B%5Cmathrm%7Bd%7D%5Ctheta%20%7D%7B%5Cmathrm%7Bd%7Dt%7D&plus;F_Dsin%28%5COmega%20_Dt%29%2C%20%5C%5C%5C%5C%20%5Cfrac%7B%5Cmathrm%7Bd%7D%20%5Ctheta%7D%7B%5Cmathrm%7Bd%7D%20t%7D%3D%5Comega.)<br>
-　　我们在运用eular——cromer方法有：<br>
+　　我们再运用eular—cromer方法有：<br>
 　　![](http://latex.codecogs.com/gif.latex?%5C%5C%20%5Comega_%7Bi&plus;1%7D%3D%5Comega_i-%5B%28g/l%29sin%5Ctheta_i&plus;q%5Comega_i-F_Dsin%28%5COmega_Dt_i%29%5D%5CDelta%20t%20%5C%5C%5C%5C%20%5Ctheta_%7Bi&plus;1%7D%3D%5Ctheta_i&plus;%5Comega_%7Bi&plus;1%7D%5CDelta%20t)<br>
 　　如果![](http://latex.codecogs.com/gif.latex?%5Ctheta_%7Bi&plus;1%7D)不在区间[-π,π]范围内，加上或者减掉2π使它保持在这个范围中。<br>
 　　![](http://latex.codecogs.com/gif.latex?t_%7Bi&plus;1%7D%3Dt_%7Bi%7D&plus;%5CDelta%20t)<br>
@@ -36,7 +36,7 @@ Repeat the previous problem, but give the two pendulums slightly different dampi
 　　物理摆摆动过程中，当强迫力较小时，初始值的微小变化对结果影响很小；若强迫力较大，则混沌现象发生，初始值对结果影响巨大。下面我们同时摆动两个物理摆，它们除θ(0)不一样外（Δθ=0.001），其他参数都相同(q=1/2,l=g=9.8,![](http://latex.codecogs.com/gif.latex?%5COmega_D)=2/3,dt=0.04,ω(0)=0,全为SI单位），它们的Δθ-s 图如下（此步在计算θ时不用使其保持在区间[-π，π]中）：<br>
 　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07n.jpg)<br>
 　　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07n.jpg)<br>
-　　经过模拟发现，当θ₁（0）取0.2时无法画出Figure3.7的右图，取θ₁（0）=0.16999，刻画出与其相似的图。这个现象也说明了混沌现象的神奇。
+　　经过模拟发现，当θ₁（0）取0.2时无法画出Figure3.7的右图，取θ₁（0）=0.16999，刻画出与其相似的图。这个现象也说明了混沌现象的神奇。<br>
 　　为更好地表现结果，该图的纵坐标使用lg为刻度。整个程序代码如下：<br>
 ```
 # -*- coding: utf-8 -*-
@@ -103,7 +103,7 @@ a.show_results1()
 　　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07c.png)<br>
 　　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07e.png)<br>
 　　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07d.png)<br>
-    第一幅图的Lyapunov指数约为-2.5，后两幅图的Lyapunov指数接近于0。<br>
+　　第一幅图的Lyapunov指数约为-2.5，后两幅图的Lyapunov指数接近于0。<br>
 　　程序代码如下：<br>
 ```
 # -*- coding: utf-8 -*-
@@ -167,7 +167,7 @@ a.show_results1()
 　　当混沌现象发生时，通过θ-t图我们很难看出其中的规律，但这并不意味着混沌现象完全没有规律可循。当我们画出一个摆的ω-θ图时，似乎能看出一些规律。<br>
 　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07k.jpg)<br>
 　　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07k.jpg)<br>
-  　当强迫力较小时，最终的轨道是独立于初始值的；强迫力较大时，空间相位轨迹很复杂却不是完全随机的。<br>
+  　当强迫力较小时，最终的轨道是独立于初始值的封闭曲线；强迫力较大时，空间相位轨迹很复杂却不是完全混乱的。<br>
   　该过程代码如下：<br>
 ```
 # -*- coding: utf-8 -*-
@@ -228,9 +228,9 @@ a.show_results2()
 
 * 庞加莱截面（problem 3.12）<br>
   　如果我们只画出某些时间点的相位点，则得到了庞加莱截面：<br>
-　　强迫力为1.2时，
+　　强迫力为1.2时，<br>
 　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07j.jpg)<br>
-  　强迫力为0.5时，
+  　强迫力为0.5时，<br>
 　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07h.jpg)<br>
   　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07j.jpg)<br>
   　[图片链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07h.jpg)<br>
@@ -302,6 +302,7 @@ a.show_results2()
 ```  
 
 ## 结论
+　　通过Δθ-t图，我们发现，强迫力较小时，Lyapunov指数小于0，θ趋于0；强迫力较大时，Lyapunov指数大于0。通过空间相位图和庞加莱截面，我们知道了判断系统是否为混沌状态的直观方法。
   
 
 ## 致谢
