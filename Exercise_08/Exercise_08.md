@@ -17,7 +17,7 @@ Calculate Piuncare sections for the pendulum as it undergose the period-doubling
 ## 正文
 　　这次作业在上次作业所用的程序上进行了修改，为了使结果更加精确，改程序的时间间隔被修改为π/300，这样在做庞加莱截面时，就能每次都恰好取到前面计算时已经计算出的点，而不需要做近似。<br>
 　　并且为了排除摆刚刚开始运动时不稳定时留下的图像，我们从第100个点开始画庞加莱截面。<br>
-　　结果如图：<br>  
+　　结果如图（θ-t图和庞加莱截面图像）：<br>  
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_08/ex8-3.jpg)<br>
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_08/ex8-6.jpg)<br>
 　　程序代码：<br>
