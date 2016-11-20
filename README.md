@@ -9,7 +9,7 @@
 * [x] [Exercise_06: Super Auxiliary Precision Strike System](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_06/Exercise_06.md)
 * [x] [Exercise_07: Chaos in the Driven Nonlinear Pendulum](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07.md)
 * [x] [Exercise_08: problem 3.18](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_08/Exercise_08.md)
-* [ ] [Exercise_09]()
+* [x] [Exercise_09: problem 3.30](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_09/Exercise_09.md)
 * [ ] [Exercise_10]()
 * [ ] [Exercise_11]()
 * [ ] [Exercise_12]()
