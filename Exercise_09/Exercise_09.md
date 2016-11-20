@@ -25,7 +25,7 @@ Investigate the Lyapunov exponent of the stadium billiard for several values of 
 　　然后我们考虑圆形桌子和运动场形的桌子，球轨迹如图（[代码链接（左图）](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_09/Exercise_09b.py)[代码链接（右图）](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_09/Exercise_09c.py)）：<br>
 　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_09/e96.jpg)<br>
 　　比较α不同时的运动场形桌子的相空间图（[代码链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_09/Exercise_09d.py)）：<br>
-　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_09/e94.png)
+　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_09/e94.png)<br>
 　　比较α不同时的运动场形桌子中两个相近初始条件的球轨迹（[代码链接](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_09/Exercise_09e.py)）：<br>
 　　![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_09/e95.png)<br>
 
