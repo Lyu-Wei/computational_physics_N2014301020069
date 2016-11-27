@@ -27,7 +27,7 @@ problem 4.10. Calculate the precession of the perihelion of Mercury, following t
 * Second, we consider the effects of general relativity. The result obtained using the force law with α=0.01 is shown in the following picture(t=4T):<br>
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o2.png)<br>
   Then, we expand time and we will obtain this result when t=20T:<br>
-  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o3b.png)<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o3.png)<br>
   When t=80T:<br>
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o4.png)<br>
 * If we make α=0.0008, we will obtain such results:<br>
