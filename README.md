@@ -10,7 +10,7 @@
 * [x] [Exercise_07: Chaos in the Driven Nonlinear Pendulum](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_07/Exercise_07.md)
 * [x] [Exercise_08: problem 3.18](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_08/Exercise_08.md)
 * [x] [Exercise_09: problem 3.30](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_09/Exercise_09.md)
-* [ ] [Exercise_10]()
+* [x] [Exercise_10](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/Exercise_10.md)
 * [ ] [Exercise_11]()
 * [ ] [Exercise_12]()
 * [ ] [Exercise_13]()
