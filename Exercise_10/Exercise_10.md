@@ -35,7 +35,12 @@ problem 4.10. Calculate the precession of the perihelion of Mercury, following t
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o12.jpg)<br>
 * We also need plot the picture of orbit orientation versus time:<br>
   ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o5.png)<br>
-
+* Besides, we can change the value of β to observe what will happen on the orbit:<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/oo201z.jpg)<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/oo210.png)<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/oo250.png)<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/oo300.png)<br>
+  
 ## Code
 [code](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/Exercise_10.py)
 
