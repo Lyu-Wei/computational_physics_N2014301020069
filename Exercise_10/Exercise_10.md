@@ -1,9 +1,9 @@
 # Exercise_10
 
 ## Abstract
-In this essay, we will discuss the Kepler' Laws of planetary motion and precession of the erihelion of Mercury and use Python to simulate the orbit of Mercury.
-![]()
-
+In this essay, we will discuss the Kepler' Laws of planetary motion and precession of the erihelion of Mercury and use Python to simulate the orbit of Mercury.<br>
+![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/002VTACjgy6U69Bogp644%26690.jpg)
+![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/9f4702003af33a8730dab0acc45c10385243b554.jpg)
 ## Background
 ### Kepler's Laws of planetary motion
 In astronomy, Kepler's laws of planetary motion are three scientific laws describing the motion of planets around the Sun.<br>
@@ -22,20 +22,25 @@ where ![](http://latex.codecogs.com/gif.latex?M_M) is the mass of Mercury and ![
 problem 4.10. Calculate the precession of the perihelion of Mercury, following the approach described in this section.
 
 ## Main Body
-* First, we don't consider the effects of general relativity, and then we plot the orbit of Mercury(t=4T):
-  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o1.png)
-* Second, we consider the effects of general relativity. The result obtained using the force law with α=0.01 is shown in the following picture(t=4T):
-  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o2.png)
-  Then, we expand time and we will obtain this result when t=20T:
-  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o3b.png)
-  When t=80T:
-  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o4.png)
-* If we make α=0.0008, we will obtain such results:
-  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o11.jpg)
-  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o12.jpg)
-* We also need plot the picture of orbit orientation versus time:
-  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o5.png)
+* First, we don't consider the effects of general relativity, and then we plot the orbit of Mercury(t=4T):<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o1.png)<br>
+* Second, we consider the effects of general relativity. The result obtained using the force law with α=0.01 is shown in the following picture(t=4T):<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o2.png)<br>
+  Then, we expand time and we will obtain this result when t=20T:<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o3b.png)<br>
+  When t=80T:<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o4.png)<br>
+* If we make α=0.0008, we will obtain such results:<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o11.jpg)<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o12.jpg)<br>
+* We also need plot the picture of orbit orientation versus time:<br>
+  ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/o5.png)<br>
+
+## Code
+[code](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/Exercise_10.py)
 
 ## Conclusion
+Finished the problem 4.10 successfully.
 
 ## Acknowledge
+Wikipedia, Google.
