@@ -1,7 +1,7 @@
 # Exercise_11
 
 ## Abstract
-In this essay, we will discuss chaotic tumbling of Hyperion and use Python to simulate the orbit of Hyperion.
+In this essay, we will discuss chaotic tumbling of Hyperion.
 
 ## Background
 ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_11/PIA17193-SaturnMoon-Hyperion-20150531.jpg)<br>
