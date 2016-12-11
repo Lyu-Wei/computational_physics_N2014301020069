@@ -1,6 +1,7 @@
 # Exercise_12
 
 ## Abstract
+![]()
 In this essay, we will discuss how to solve the capacitor problem (we can also call it the problem about electric potential near two metal plates) by relaxition method.
 ![]()
 
@@ -23,12 +24,33 @@ In numerical linear algebra, the method of successive over-relaxation (SOR) is a
 It was devised simultaneously by David M. Young, Jr. and by Stanley P. Frankel in 1950 for the purpose of automatically solving linear systems on digital computers. Over-relaxation methods had been used before the work of Young and Frankel. An example is the method of Lewis Fry Richardson, and the methods developed by R. V. Southwell. However, these methods were designed for computation by human calculators, and they required some expertise to ensure convergence to the solution which made them inapplicable for programming on digital computers. These aspects are discussed in the thesis of David M. Young, Jr.
 
 ## Problem
-Problem 5.7.Write two programs to solve the capacitor problem of Figure 5.6 and 5.7,one using the Jacobi method and one using the SOR algorithm. For a fixed accuracy (as set by the convergence test)compare the number of iterations,![](http://latex.codecogs.com/gif.latex?N_%7Biter%7D),that each algorithm requires as a function of the member of grid elements, L. Show that for the Jacobi method ![](http://latex.codecogs.com/gif.latex?N_%7Biter%7D%5Csim%20L%5E2),while with SOR ![](http://latex.codecogs.com/gif.latex?N_%7Biter%7D%5Csim%20L).
+* Problem 5.3.
+Use the symmetry of the capacitor problem (Figure 5.6) to write a program that obtain the result by calculating the potential in only one quadrant of the x-y plane.
+
+* Problem 5.7.
+Write two programs to solve the capacitor problem of Figure 5.6 and 5.7,one using the Jacobi method and one using the SOR algorithm. For a fixed accuracy (as set by the convergence test)compare the number of iterations, ![](http://latex.codecogs.com/gif.latex?N_%7Biter%7D),that each algorithm requires as a function of the member of grid elements, L. Show that for the Jacobi method ![](http://latex.codecogs.com/gif.latex?N_%7Biter%7D%5Csim%20L%5E2),while with SOR ![](http://latex.codecogs.com/gif.latex?N_%7Biter%7D%5Csim%20L).
 
 ## Main Body
+* Voltage Near the Capacitor
+First, we can solve the capacitor problem using numerical method and draw a picture to dscribe voltage near the capacitor:
+![][()
+Then we can change it as 3d picture:
+![]()
+We also can put color on the picture:
+![]()
+And this is electric field near the capacitor:
+![]()
+
+* Comparation between Jacobi Method and SOR
+From the picture we can see SOR is better than the Jacobi Method:
+![]()
 
 ## Code
+[]()
+[]()
 
 ## Conclusion
+Finished problem 5.3. and 5.7. successfully.
 
 ## Appreciation
+Wikipedia & the official website of matplotlib
