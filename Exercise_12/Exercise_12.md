@@ -1,7 +1,7 @@
 # Exercise_12
 
 ## Abstract
-![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/y02.jpg)<br>
+![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/y02.png)<br>
 In this essay, we will discuss how to solve the capacitor problem (we can also call it the problem about electric potential near two metal plates) by relaxition method.<br>
 ![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/y01.jpg)<br>
 
