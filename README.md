@@ -12,7 +12,7 @@
 * [x] [Exercise_09: problem 3.30](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_09/Exercise_09.md)
 * [x] [Exercise_10: problem 4.10](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_10/Exercise_10.md)
 * [x] [Exercise_11: problem 4.19 & problem 4.20](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_11/Exercise_11.md)
-* [ ] [Exercise_12]()
+* [x] [Exercise_12: problem 5.3 & problem 5.7](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/Exercise_12.md)
 * [ ] [Exercise_13]()
 * [ ] [Exercise_14]()
 * [ ] [Final Project]()
