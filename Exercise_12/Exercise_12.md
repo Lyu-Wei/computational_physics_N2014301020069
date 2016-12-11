@@ -1,9 +1,9 @@
 # Exercise_12
 
 ## Abstract
-![]()<br>
+![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/y02.jpg)<br>
 In this essay, we will discuss how to solve the capacitor problem (we can also call it the problem about electric potential near two metal plates) by relaxition method.<br>
-![]()<br>
+![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/y01.jpg)<br>
 
 ## Background
 * Laplace's Equation<br>
@@ -26,7 +26,7 @@ It was devised simultaneously by David M. Young, Jr. and by Stanley P. Frankel i
 ## Problem
 * Problem 5.3.<br>
 Use the symmetry of the capacitor problem (Figure 5.6) to write a program that obtain the result by calculating the potential in only one quadrant of the x-y plane.<br>
-![]()<br>
+![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/y0.png)<br>
 
 * Problem 5.7.<br>
 Write two programs to solve the capacitor problem of Figure 5.6 and 5.7,one using the Jacobi method and one using the SOR algorithm. For a fixed accuracy (as set by the convergence test)compare the number of iterations, ![](http://latex.codecogs.com/gif.latex?N_%7Biter%7D),that each algorithm requires as a function of the member of grid elements, L. Show that for the Jacobi method ![](http://latex.codecogs.com/gif.latex?N_%7Biter%7D%5Csim%20L%5E2),while with SOR ![](http://latex.codecogs.com/gif.latex?N_%7Biter%7D%5Csim%20L).<br>
@@ -34,21 +34,21 @@ Write two programs to solve the capacitor problem of Figure 5.6 and 5.7,one usin
 ## Main Body
 * Voltage Near the Capacitor<br>
 First, we can solve the capacitor problem using numerical method and draw a picture to dscribe voltage near the capacitor:<br>
-![][()<br>
+![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/y1.png)<br>
 Then we can change it as 3d picture:<br>
-![]()<br>
+![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/y2.png)<br>
 We also can put color on the picture:<br>
-![]()<br>
+![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/y3.png)<br>
 And this is electric field near the capacitor:<br>
-![]()<br>
+![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/y4.png)<br>
 
 * Comparation between Jacobi Method and SOR<br>
 From the picture we can see SOR is better than the Jacobi Method:<br>
-![]()<br>
+![](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/y5.png)<br>
 
 ## Code
-[]()<br>
-[]()<br>
+[code](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/Exercise_12%2B.py)<br>
+[code](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/Exercise_12.py)<br>
 
 ## Conclusion
 Finished problem 5.3. and 5.7. successfully.
