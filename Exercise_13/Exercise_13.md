@@ -1,7 +1,7 @@
 # Exercise_13
 
 ## Abstract
-![](http://photo.163.com/mzxsrmddjx/#m=2&aid=307026085&pid=9726096842)
+![](http://img0.ph.126.net/IK1-5yG4ygmYRlrgbRVEfA==/6631581237632739429.jpg)
 We can always see waves in our life, and strings are which can create waves esaily. There are a lot of things that have strings, such as many kinds of instruments. We will study the waves created by strings now.
 ![]()
 
