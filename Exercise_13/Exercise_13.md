@@ -2,7 +2,7 @@
 
 ## Abstract
 ![](http://img0.ph.126.net/IK1-5yG4ygmYRlrgbRVEfA==/6631581237632739429.jpg)<br>
-We can always see waves in our life, and strings are which can create waves esaily. There are a lot of things that have strings, such as many kinds of instruments. We will study the waves created by strings now.<br>
+We can always see waves in our life, and strings are what can create waves esaily. There are a lot of things that have strings, such as many kinds of instruments. We will study the waves created by strings now.<br>
 ![](http://img2.ph.126.net/QrNNHIrqkVu1M3N2cs-2Zw==/6631612023958317893.jpg)<br>
 
 ## Background
@@ -49,7 +49,7 @@ Quadratic string:<br>
 ![](http://img1.ph.126.net/wNdEaThvlsuRj8hyjoPfpg==/6631929782815641217.png)<br>
 
 ## Code
-[code]()
+[code](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_13/Exercise_13%2B%2B.py)
 
 ## Conclusion
 Finished problem 6.12. successfully.
