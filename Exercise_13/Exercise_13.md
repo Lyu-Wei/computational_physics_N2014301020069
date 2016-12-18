@@ -44,7 +44,7 @@ Circlar string: <br>
 ![](http://img2.ph.126.net/CD8UQdTMEsEH0aS0RF4f3Q==/6631550451307159400.png)<br>
 ![](http://img0.ph.126.net/ThTys0RXLfvBPyBDGF4QnQ==/6631751661935050311.png)<br>
 Quadratic string:<br>
-![](http://img0.ph.126.net/7pYhK8GDI9H8iVs6Tw_trw==/6631890200397048018.gif)<br>
+![](http://img1.ph.126.net/OAhnWnN9T9yxxslP7vNghQ==/6631730771214110188.gif)<br>
 ![](http://img1.ph.126.net/1jgGlYT4Qv3YSrS0iPKqfg==/6631935280373780080.png)<br>
 ![](http://img1.ph.126.net/wNdEaThvlsuRj8hyjoPfpg==/6631929782815641217.png)<br>
 
