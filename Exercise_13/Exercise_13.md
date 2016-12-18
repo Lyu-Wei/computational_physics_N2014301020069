@@ -19,7 +19,7 @@ where ![](http://img2.ph.126.net/cIy2OCT2VORWfb2vaWvvyQ==/6631586735190885740.pn
 
 ## Main Body
 * Compare the wave on a real string with Gaussian initial string<br>
-![](http://img2.ph.126.net/KG0gZqPG1srCqE0CjL5F1A==/6631963867676108210.gif)<br>
+![](http://img2.ph.126.net/MNNnuQy-xiOVJZkRY4Q_DQ==/6631638412237388126.gif)<br>
 ![](http://img2.ph.126.net/AwihHs-YvkFAO1Kw-DDkfQ==/6632087012978419397.gif)<br>
 
 * Compare the string signal<br>
