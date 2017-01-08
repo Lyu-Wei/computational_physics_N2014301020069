@@ -25,7 +25,7 @@ for i in range(1,101):
        
 for i in range(1,101):
    r = np.random.rand()
-   if r<=0.5:
+   if r<0.5:
        x2[i] = x2[i-1] + 1
    else:
        x2[i] = x2[i-1] - 1
