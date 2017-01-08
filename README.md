@@ -14,4 +14,4 @@
 * [x] [Exercise_11: problem 4.19 & problem 4.20](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_11/Exercise_11.md)
 * [x] [Exercise_12: problem 5.3 & problem 5.7](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_12/Exercise_12.md)
 * [x] [Exercise_13: problem 6.12](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Exercise_13/Exercise_13.md)
-* [x] [Final Project](https://github.com/Lyu-Wei/computational_physics_N2014301020069/blob/master/Final_Project/Final_Project.md)
+* [x] [Final Project](https://www.zybuluo.com/Lyu-Wei/note/503209)
