@@ -1,13 +1,12 @@
 # Exercise_13
 
 ## Abstract
-![](http://img0.ph.126.net/IK1-5yG4ygmYRlrgbRVEfA==/6631581237632739429.jpg)<br>
-We can always see waves in our life, and strings are what can create waves esaily. There are a lot of things that have strings, such as many kinds of instruments. We will study the waves created by strings now.<br>
-![](http://img2.ph.126.net/QrNNHIrqkVu1M3N2cs-2Zw==/6631612023958317893.jpg)<br>
+![]()<br>
+We can always see waves in our life, and strings are what can create waves esaily. There are a lot of things that have strings, such as many kinds of instruments. We will study the waves created by )<br>
 
 ## Background
 * Wave Equation<br>
-![](http://img1.ph.126.net/TQPN2NjfpufnQ52ltlSyoQ==/6631776950702487601.jpg)<br>
+![]()<br>
 The central equation of wave motion is<br>
 ![](http://img2.ph.126.net/8rcQhQnLrYYb8AG1jVQFig==/6631851717490069547.png)<br>
 For numeriacal caculation, we can write it as:<br>
